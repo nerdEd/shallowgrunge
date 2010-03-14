@@ -23,6 +23,7 @@
 	<ul>
 		<li class="page_item<?php if (is_home()) echo ' current_page_item'; ?>"><a href="<?php echo get_option('home'); ?>/">Blog</a></li>
 		<?php wp_list_pages('title_li=' ); ?>
+		<li class="page_item"><a href="http://www.edschmalzle.com/feed/">RSS</a></li>
 	</ul>
 </div>
 <!-- end #menu -->
